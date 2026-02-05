@@ -1,0 +1,6 @@
+{
+  "installCommand": "bun install",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/handler" }
+  ]
+}

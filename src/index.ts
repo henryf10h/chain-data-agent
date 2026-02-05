@@ -423,4 +423,5 @@ Endpoints:
     POST /analysis - AI-powered market analysis
 `);
 
+export { app };
 export default { port, fetch: app.fetch };
